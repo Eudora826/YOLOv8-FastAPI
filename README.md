@@ -1,4 +1,4 @@
-# yolov8-FastAPI
+# YOLOv8-FastAPI
 
 A containerized object detection service built with FastAPI and YOLOv8.
 
