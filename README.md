@@ -1,12 +1,12 @@
-# YOLO Inference Service
+# yolov8-FastAPI
 
 A containerized object detection service built with FastAPI and YOLOv8.
 
 ## Run with Docker
 
 ```bash
-docker build -t yolo-inference .
-docker run -d -p 8000:8000 --name yolo yolo-inference
+docker build -t yolov8-fastapi .
+docker run -d -p 8000:8000 --name yolov8-fastapi yolov8-fastapi
 ```
 
 ## API

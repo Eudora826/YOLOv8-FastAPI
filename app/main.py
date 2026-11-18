@@ -3,7 +3,7 @@ from fastapi import FastAPI, File, UploadFile
 from PIL import Image
 from app.detector import Detector
 
-app = FastAPI(title="YOLO Inference Service")
+app = FastAPI(title="yolov8-FastAPI")
 
 # 懒加载:启动时不加载模型,第一次请求 /predict 才加载
 # 这样 /health 很快,测试时也容易 mock
